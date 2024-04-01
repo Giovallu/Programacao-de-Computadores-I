@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: pink;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: palevioletred;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px;
+}
+
+nav ul li a:hover {
+    background: pink;
+}
+.container {
+    border: 0.5px solid;
+    border-radius: 20px;
+    margin: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    border-color: palevioletred;
+}
+
+.container form label{
+    color: palevioletred;
+}
+.caixa{
+    margin-top: 20px;
+}
+
+.caixa input{
+    border: 1.75px solid;
+    border-color: palevioletred;
+    border-radius: 4px;
+
+}
+
+.caixa input:hover{
+    border-color: pink;
+}
+
+button{
+    color: white;
+    background-color: palevioletred;
+    border-color: whitesmoke;
+}
+
